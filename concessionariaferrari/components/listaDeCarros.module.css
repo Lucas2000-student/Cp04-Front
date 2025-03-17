@@ -1,0 +1,19 @@
+.card{
+    display: flex;
+    padding: 10px;
+}
+.card-grid{
+    display: flex;
+}
+.card img{
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+.card p{
+    font-size: 20px;
+    margin: 20px;
+    
+}
