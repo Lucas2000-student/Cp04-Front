@@ -1,6 +1,6 @@
 
+import styles from '@/app/globals.module.css';
 import { listaData } from "@/data/carrosData";
-
 
 type detalhesProdutoProps = {
     params: {
@@ -15,10 +15,10 @@ function detalhesProduto(props: detalhesProdutoProps) {
     });
     return (
         <>
-            <div>
+            <div className={styles.tabela} >
                 <div>
                     <h2>Detalhes do veículo</h2>
-                    <img src={produto?.imagem} alt={produto?.nome} style={{ width: '700px', height: 'auto', borderRadius: '15px'}}/> 
+                    <img src={produto?.imagem} alt={produto?.nome} style={{ width: '700px', height: 'auto', borderRadius: '15px' }} />
                     <div>
                         <p><strong>Nome: </strong>{produto?.nome}</p>
                         <p><strong>Ano do modelo: </strong>{produto?.ano}</p>

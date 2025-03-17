@@ -1,4 +1,4 @@
-import "./globals.module.css";
+import '@/app/globals.module.css';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 
@@ -13,11 +13,11 @@ export default function RootLayout({
         <title>Ferrari</title>
       </head>
       <body>
-        <Header/>
+        <Header />
         <main>
           {children}
         </main>
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
